@@ -1,0 +1,20 @@
+header {
+  height: 90px;
+  display: flex;
+  background-color: transparent;
+  position: fixed;
+
+  .logo-wrapper {
+    display: flex;
+    align-items: center;
+    .logo {
+      width: 60px;
+      margin: 0 18px;
+    }
+    .logo-text {
+      color: $white;
+      font-size: 1.94em;
+    }
+  }
+}
+

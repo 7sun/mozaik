@@ -1,0 +1,32 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  font-weight: $base-font-weight;
+  letter-spacing: 0.10rem;
+}
+
+h1 {
+  font-size: $h1-font-size;
+}
+
+h2 {
+  font-size: $h2-font-size;
+}
+
+h4 {
+  font-size: $h4-font-size;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: $extra-light-font-weight;
+  letter-spacing: 0.45rem;
+}
