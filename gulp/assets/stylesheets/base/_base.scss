@@ -30,3 +30,9 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: $extra-light-font-weight;
   letter-spacing: 0.45rem;
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}

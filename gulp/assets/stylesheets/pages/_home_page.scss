@@ -1,0 +1,77 @@
+#home {
+  .image-box {
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+    min-width: 200px;
+  }
+  .image1, .image4 {
+    background-color: tomato;
+  }
+  .image-box:nth-child(2n + 1) {
+    background-color: sienna;
+  }
+
+  .image2 {
+    background-color: skyblue;
+  }
+
+  section {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .image-box {
+    flex: 1 1 300px;
+  }
+  .image1 {
+    background: url('https://photos-6.dropbox.com/t/2/AAD4oT5z0UtN_8Y07JXdymazWqoS6PoB1vKbWSKeLX8jYA/12/5969525/jpeg/32x32/1/_/1/2/PB120033.JPG/EMLEugQYrpQCIAEgAigB/AkQ49iGo_gzXRwGojLw7SsVDqg3HYeUp56fbXh7f4hg?size=1280x960&size_mode=3');
+  }
+
+  .image2 {
+    background: url('https://photos-6.dropbox.com/t/2/AACMXojafnRUJFo_V86LmdVSF6whXDRFTAgdS07QyFfhqw/12/5969525/jpeg/32x32/1/_/1/2/PB140266.JPG/EMLEugQYrpQCIAEgAigB/ILnEjB4C8UE1cKnTwvjp7n8g84HRHIspQAFkMyNR1aY%2CKwxpPbeuB_oQsb8r5sUwuv_OGB_AMRMT6GbmWORHv5U?size=800x600&size_mode=3');
+    flex: 1 1 100px;
+  }
+
+  .image3 {
+    background: url('http://lorempixel.com/800/1000');
+    flex: 1 1 400px;
+  }
+
+  .image4 {
+    background: url('http://lorempixel.com/700/1200');
+  }
+
+  .image5 {
+    background: url('https://photos-5.dropbox.com/t/2/AAB-gRr_D8jqh6QoefD7P9la40wqMKFXSOUOuamhRAD54A/12/5969525/jpeg/32x32/1/_/1/2/PB130138.JPG/EMLEugQYrpQCIAEgAigB/x9OwRhS-w1JRCqloCLyPeOvTG-QA0X3jakQ20RJeClo?size=1280x960&size_mode=3');
+    flex: 1 1 600px;
+  }
+
+  .image6 {
+    background: url('http://lorempixel.com/800/800');
+  }
+
+  .image7 {
+    background: url('http://lorempixel.com/600/900');
+    flex: 1;
+  }
+  .image8 {
+    background: url('http://lorempixel.com/900/600');
+  }
+  .selected {
+    transition: all 0.4s ease-out;
+    flex: 1 1 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .gallery {
+    transition: all 0.4s ease;
+    flex: 1 0;
+    min-height: 10vh;
+  }
+
+
+}
