@@ -1,0 +1,115 @@
+#gallery {
+  .wrapper {
+    max-height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+  }
+  section.images {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    overflow-y: scroll;
+    margin: 0 5px;
+    .image-box {
+      height: 17vw;
+      flex: 1 1 calc(20vw - 20px);
+      margin: 5px;
+    }
+    .image1 {
+      background: url('http://lorempixel.com/900/1000');
+      background-size: cover;
+      background-repeat: no-repeat;
+      flex: 1 1 calc(100vw - 10px);
+      height: 70vw;
+    }
+
+    .image2 {
+      background: url('http://lorempixel.com/700/1000');
+      flex: 1 1 calc(65vw - 20px);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 40vw;
+      // transition: all 1s ease;
+    }
+
+    .image3 {
+      background: url('http://lorempixel.com/800/1000');
+      flex: 1 1 calc(35vw - 20px);
+      height: 40vw;
+      // transition: all 2s ease;
+    }
+
+    .image4 {
+      background: url('http://lorempixel.com/700/1200');
+    }
+
+    .image5 {
+      background: url('http://lorempixel.com/800/400');
+    }
+
+    .image6 {
+      background: url('http://lorempixel.com/800/800');
+    }
+
+    .image7 {
+      background: url('http://lorempixel.com/600/900');
+    }
+    .image8 {
+      background: url('http://lorempixel.com/900/700');
+    }
+    .image9 {
+      background: url('http://lorempixel.com/1200/700');
+      height: 60vw;
+      flex: 1 1 calc(30vw - 20px);
+    }
+    .image10 {
+      background: url('http://lorempixel.com/1300/900');
+      background-size: cover;
+      flex: 1 1 calc(70vw - 20px);
+      height: 60vw;
+    }
+    .expand {
+      transition: all 2s ease;
+      flex: 1 1 100vw;
+      height: 80vh;
+    }
+    .contract {
+      transition: all 1s ease;
+      flex: 0;
+      margin: 0;
+    }
+  }
+  section.title {
+    flex: 1 1 60px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    .button {
+      flex: 1 1;
+      background-color: rgba(0,0,0,0.2);
+      // border-radius: 5px;
+      margin: 10px;
+      padding: 5px;
+    }
+    .name {
+      flex: 3;
+    }
+  }
+  footer {
+    flex: 1 1;
+    display: flex;
+    text-align: center;
+    & > * {
+      flex: 1;
+    }
+    .nav-icon {
+      flex: 1 1;
+      padding: 10px;
+      border-left: 1px solid rgba(0,0,0,0.2);
+      &:first-child {
+        border-left: none;
+      }
+    }
+  }
+}
