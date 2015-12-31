@@ -1,3 +1,8 @@
+body {
+  // height: 558px;
+  // min-height: 558px;
+}
+
 #gallery {
   .shadow {
     position: absolute;
@@ -12,6 +17,7 @@
   }
   .wrapper {
     height: 100vh;
+    // height: 558px;
     display: flex;
     flex-flow: column nowrap;
     position: relative;
