@@ -1,6 +1,6 @@
 #gallery {
   .wrapper {
-    max-height: 100vh;
+    height: 100vh;
     display: flex;
     flex-flow: column nowrap;
   }
@@ -81,7 +81,7 @@
     }
   }
   section.title {
-    flex: 1 1 60px;
+    // flex: 1 1 60px;
     display: flex;
     justify-content: space-between;
     text-align: center;
@@ -98,7 +98,7 @@
     }
   }
   footer {
-    flex: 1 1;
+    // flex: 1 1;
     display: flex;
     text-align: center;
     & > * {
