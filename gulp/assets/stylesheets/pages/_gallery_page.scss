@@ -39,7 +39,7 @@
     display: flex;
     flex-wrap: wrap;
     overflow-y: scroll;
-    overflow-scrolling: touch;
+    -webkit-overflow-scrolling: touch;
     margin: 0 5px;
     .image-box {
       height: 17vw;
