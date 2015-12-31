@@ -28,8 +28,8 @@
 
 <script>
   if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-   var oHeight = $(window).outerHeight();
-   $('body, .wrapper').css('height', oHeight);
+   var deviceHeight = $(window).innerHeight();
+   $('body, .wrapper').css('height', deviceHeight);
   }
 </script>
 
