@@ -4,4 +4,7 @@ class PagesController < ApplicationController
 
   def gallery
   end
+
+  def bos
+  end
 end
