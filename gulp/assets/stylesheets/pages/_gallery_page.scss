@@ -13,12 +13,11 @@ html, body {
     height: calc(100vh - 96px);
     width: calc(100vw - 20px);
     margin: 53px 10px;
-    box-shadow: inset 0 0 15px #000000;
+    box-shadow: inset 0 0 10px #555;
     pointer-events: none;
   }
   .wrapper {
     height: 100vh;
-    // height: 558px;
     display: flex;
     flex-flow: column nowrap;
     position: relative;
@@ -28,7 +27,6 @@ html, body {
     flex: 0 0  auto;
   }
   section.title {
-    // margin: 10px 0;
     display: flex;
     justify-content: space-between;
     text-align: center;
@@ -45,11 +43,14 @@ html, body {
   }
   section.images {
     flex: 1 1 auto;
+    overflow-y: scroll;
+    margin: 0 10px;
+  }
+  section.images .images-container {
     display: flex;
     flex-wrap: wrap;
-    overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
-    margin: 0 5px;
+    padding: 5px;
     .image-box {
       height: 17vw;
       flex: 1 1 calc(20vw - 20px);
